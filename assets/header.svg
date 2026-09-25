@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320">
+  <defs>
+    <radialGradient id="glowA" cx="30%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#8b3dff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8b3dff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="75%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#ff3d9a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff3d9a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="55%" cy="80%" r="35%">
+      <stop offset="0%" stop-color="#3d7bff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3d7bff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .bg { fill: #07070d; }
+      .pulse { animation: pulse 6s ease-in-out infinite; transform-origin: center; }
+      .pulse2 { animation: pulse 8s ease-in-out infinite reverse; transform-origin: center; }
+      @keyframes pulse { 0%,100% { opacity: .75; } 50% { opacity: 1; } }
+      .title { font: 800 64px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 22px; fill: #ffffff; }
+      .role { font: 700 13px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 6px; fill: #b18cff; }
+      .sub { font: 600 11px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 4px; fill: #d6d0e8; }
+      .tags { font: 600 10px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 3px; fill: #ff6fb1; }
+      .url { font: 400 9px 'Courier New', monospace; letter-spacing: 2px; fill: #5c5775; }
+      .corner { stroke: #7c6fa8; stroke-width: 1.5; fill: none; }
+      .star { fill: #ffffff; animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: 1s; } .s3 { animation-delay: 2s; }
+      @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: .9; } }
+      .fade { animation: fadeIn 1.4s ease-out both; }
+      .d1 { animation-delay: .3s; } .d2 { animation-delay: .6s; } .d3 { animation-delay: .9s; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="320" rx="14"/>
+  <rect class="pulse" width="850" height="320" rx="14" fill="url(#glowA)"/>
+  <rect class="pulse2" width="850" height="320" rx="14" fill="url(#glowB)"/>
+  <rect width="850" height="320" rx="14" fill="url(#glowC)"/>
+
+  <!-- stars -->
+  <circle class="star" cx="120" cy="60" r="1.2"/>
+  <circle class="star s2" cx="730" cy="80" r="1"/>
+  <circle class="star s3" cx="640" cy="250" r="1.3"/>
+  <circle class="star s2" cx="200" cy="240" r="0.9"/>
+  <circle class="star" cx="780" cy="200" r="1"/>
+  <circle class="star s3" cx="60" cy="170" r="0.8"/>
+
+  <!-- corner brackets -->
+  <path class="corner" d="M24 48 V24 H48"/>
+  <path class="corner" d="M826 48 V24 H802"/>
+  <path class="corner" d="M24 272 V296 H48"/>
+  <path class="corner" d="M826 272 V296 H802"/>
+
+  <text x="436" y="120" text-anchor="middle" class="title fade" filter="url(#textGlow)">TIANA</text>
+  <text x="425" y="155" text-anchor="middle" class="role fade d1">WEB DEVELOPER</text>
+  <text x="425" y="200" text-anchor="middle" class="sub fade d2">FULL-STACK  |  UI/UX DESIGN</text>
+  <text x="425" y="222" text-anchor="middle" class="tags fade d2">REACT · NEXT.JS · SUPABASE · LARAVEL · VERCEL</text>
+  <text x="425" y="255" text-anchor="middle" class="url fade d3">[ github.com/ianastar30 ]</text>
+</svg>

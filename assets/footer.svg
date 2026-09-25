@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="60" viewBox="0 0 850 60">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8b3dff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff3d9a"/>
+      <stop offset="100%" stop-color="#8b3dff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="60" rx="10" fill="#07070d"/>
+  <rect x="125" y="14" width="600" height="1" fill="url(#line)"/>
+  <text x="425" y="40" text-anchor="middle"
+        style="font: 600 10px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 5px; fill: #5c5775;">
+    TIANA · BUILDING FAST, CLEAN, HUMAN-FRIENDLY WEB
+  </text>
+</svg>
