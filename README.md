@@ -1,4 +1,5 @@
-<img width="850" height="320" alt="header" src="https://github.com/user-attachments/assets/317a071f-1abe-4ca9-9752-77c19321796b" /><svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320">
+[README.md](https://github.com/user-attachments/files/32653167/README.md)<img width="850" height="320" alt="header" src="https://github.com/user-attachments/assets/af13b47c-e047-4a22-97bf-c0c67bee70a5" />
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320">
   <defs>
     <radialGradient id="glowA" cx="30%" cy="35%" r="45%">
       <stop offset="0%" stop-color="#8b3dff" stop-opacity="0.75"/>
@@ -64,9 +65,7 @@
 </svg>
 
 
-
-
-
+[Uploadin<!-- Replace every ianastar30 below with your GitHub username (Ctrl+H / find & replace) -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ianastar30&label=Profile%20views&color=5b3dff&style=flat" alt="profile views" />
@@ -126,6 +125,10 @@
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="footer" />
 </p>
+g README.md…]()
+
+<img width="850" height="60" alt="footer" src="https://github.com/user-attachments/assets/a3e1e8ed-b0e3-49c2-9eee-12bf27300516" />
+
 
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="60" viewBox="0 0 850 60">
   <defs>
@@ -142,6 +145,3 @@
     TIANA · BUILDING FAST, CLEAN, HUMAN-FRIENDLY WEB
   </text>
 </svg>
-
-<img width="850" height="60" alt="footer" src="https://github.com/user-attachments/assets/86c5f58d-1f60-437e-a97c-816c01e5410a" />
-
