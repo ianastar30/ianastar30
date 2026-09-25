@@ -1,6 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32652940/README.md)
-
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ianastar30&label=Profile%20views&color=5b3dff&style=flat" alt="profile views" />
 </p>
